@@ -6,6 +6,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    height: 100vh;
     color: #fff; /* Цвет текста для контраста с фоном */
     overflow-x: hidden; /* Убираем горизонтальный скролл *//* Восстанавливаем вертикальный скролл */
 }
@@ -114,6 +115,7 @@ p {
 
     body{
         overflow-x: hidden;
+        height: 100vh;
        
     }
     
@@ -123,6 +125,7 @@ p {
 
     body{
         overflow-x: hidden;
+        height: 100vh;
       
     }
     
