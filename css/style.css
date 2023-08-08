@@ -7,8 +7,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     color: #fff; /* Цвет текста для контраста с фоном */
-    overflow-x: hidden; /* Убираем горизонтальный скролл */
-    overflow-y: hidden; /* Восстанавливаем вертикальный скролл */
+    overflow-x: hidden; /* Убираем горизонтальный скролл *//* Восстанавливаем вертикальный скролл */
 }
 
 .container {
