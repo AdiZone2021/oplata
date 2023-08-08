@@ -2,13 +2,13 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-image: url('./img/photo_2023-08-07_10-53-43.jpg'); /* Замените 'background-image.jpg' на путь к вашей картинке */
+    background-image: url('../img/photo_2023-08-07_10-53-43.jpg'); /* Замените 'background-image.jpg' на путь к вашей картинке */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     color: #fff; /* Цвет текста для контраста с фоном */
     overflow-x: hidden; /* Убираем горизонтальный скролл */
-    overflow-y: auto; /* Восстанавливаем вертикальный скролл */
+    overflow-y: hidden; /* Восстанавливаем вертикальный скролл */
 }
 
 .container {
@@ -22,7 +22,7 @@ body {
 
 .requisites {
     max-width: 600px;
-    width: 100%; /* Занимает всю ширину контейнера */
+    width: 96%; /* Занимает всю ширину контейнера */
     height: 100%; /* Занимает всю высоту контейнера */
     position: absolute;
     top: 50%;
@@ -36,9 +36,10 @@ body {
 
 h1 {
     text-align: center;
-    color: #333;
-    font-size: 32px;
-    margin-bottom: 20px;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: -14px;
 }
 
 h2 {
@@ -55,7 +56,7 @@ h3 {
 
 p {
     color: black;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
     line-height: 1.6;
 }
@@ -95,6 +96,7 @@ p {
 
     body{
         overflow-x: hidden;
+      
     }
     .requisites {
         padding: 10px;
@@ -106,4 +108,23 @@ p {
         font-size: 27px;
         font-weight: 600;/* Увеличенный размер номера карты для мобильных устройств */
     }
+}
+
+
+@media (max-width: 414px) {
+
+    body{
+        overflow-x: hidden;
+       
+    }
+    
+}
+
+@media (max-width: 428px) {
+
+    body{
+        overflow-x: hidden;
+      
+    }
+    
 }
