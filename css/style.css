@@ -23,7 +23,7 @@ body {
 .requisites {
     max-width: 600px;
     width: 96%; /* Занимает всю ширину контейнера */
-    height: 95%; /* Занимает всю высоту контейнера */
+    height: 100%; /* Занимает всю высоту контейнера */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -96,7 +96,7 @@ p {
 
     body{
         overflow-x: hidden;
-        overflow-y: hidden;
+      
     }
     .requisites {
         padding: 10px;
@@ -115,7 +115,7 @@ p {
 
     body{
         overflow-x: hidden;
-        overflow-y: hidden;
+       
     }
     
 }
@@ -124,7 +124,7 @@ p {
 
     body{
         overflow-x: hidden;
-        overflow-y: hidden;
+      
     }
     
 }
